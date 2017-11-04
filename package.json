@@ -1,0 +1,22 @@
+{
+  "name": "memory-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/express-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miriambej/memory-board-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miriambej/memory-board-react/issues"
+  },
+  "homepage": "https://github.com/miriambej/memory-board-react#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
