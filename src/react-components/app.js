@@ -1,21 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MemoList from './MemoList'
 
 class App extends React.Component {
-  constructor() {
-    super();
-  }
-
-  create() {
-    alert("You created a memo!");
-  }
 
   render(){
     return (
-      <div>
+      <section>
         <h1>Memo Board</h1>
-        <button onClick= {this.create}>Create memo</button>
-      </div>
+        <MemoList/>
+      </section>
     );
   }
 }

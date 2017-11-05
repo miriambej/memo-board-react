@@ -75,7 +75,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":6,"_process":32}],2:[function(require,module,exports){
+},{"./emptyFunction":6,"_process":34}],2:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -272,7 +272,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":32}],8:[function(require,module,exports){
+},{"_process":34}],8:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -458,7 +458,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":32}],13:[function(require,module,exports){
+},{"_process":34}],13:[function(require,module,exports){
 'use strict';
 
 /**
@@ -688,7 +688,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":6,"_process":32}],19:[function(require,module,exports){
+},{"./emptyFunction":6,"_process":34}],19:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -843,7 +843,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 
 }).call(this,require('_process'))
-},{"./lib/ReactPropTypesSecret":24,"_process":32,"fbjs/lib/invariant":12,"fbjs/lib/warning":18}],21:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":24,"_process":34,"fbjs/lib/invariant":12,"fbjs/lib/warning":18}],21:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1449,7 +1449,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 };
 
 }).call(this,require('_process'))
-},{"./checkPropTypes":20,"./lib/ReactPropTypesSecret":24,"_process":32,"fbjs/lib/emptyFunction":6,"fbjs/lib/invariant":12,"fbjs/lib/warning":18,"object-assign":19}],23:[function(require,module,exports){
+},{"./checkPropTypes":20,"./lib/ReactPropTypesSecret":24,"_process":34,"fbjs/lib/emptyFunction":6,"fbjs/lib/invariant":12,"fbjs/lib/warning":18,"object-assign":19}],23:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1481,7 +1481,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./factoryWithThrowingShims":21,"./factoryWithTypeCheckers":22,"_process":32}],24:[function(require,module,exports){
+},{"./factoryWithThrowingShims":21,"./factoryWithTypeCheckers":22,"_process":34}],24:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -18720,7 +18720,7 @@ module.exports = ReactDOMFiberEntry;
 }
 
 }).call(this,require('_process'))
-},{"_process":32,"fbjs/lib/EventListener":1,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/camelizeStyleName":4,"fbjs/lib/containsNode":5,"fbjs/lib/emptyFunction":6,"fbjs/lib/emptyObject":7,"fbjs/lib/focusNode":8,"fbjs/lib/getActiveElement":9,"fbjs/lib/hyphenateStyleName":11,"fbjs/lib/invariant":12,"fbjs/lib/performanceNow":16,"fbjs/lib/shallowEqual":17,"fbjs/lib/warning":18,"object-assign":19,"prop-types":23,"prop-types/checkPropTypes":20,"react":30}],26:[function(require,module,exports){
+},{"_process":34,"fbjs/lib/EventListener":1,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/camelizeStyleName":4,"fbjs/lib/containsNode":5,"fbjs/lib/emptyFunction":6,"fbjs/lib/emptyObject":7,"fbjs/lib/focusNode":8,"fbjs/lib/getActiveElement":9,"fbjs/lib/hyphenateStyleName":11,"fbjs/lib/invariant":12,"fbjs/lib/performanceNow":16,"fbjs/lib/shallowEqual":17,"fbjs/lib/warning":18,"object-assign":19,"prop-types":23,"prop-types/checkPropTypes":20,"react":30}],26:[function(require,module,exports){
 /*
  React v16.0.0
  react-dom.production.min.js
@@ -19020,7 +19020,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-dom.development.js":25,"./cjs/react-dom.production.min.js":26,"_process":32}],28:[function(require,module,exports){
+},{"./cjs/react-dom.development.js":25,"./cjs/react-dom.production.min.js":26,"_process":34}],28:[function(require,module,exports){
 (function (process){
 /** @license React v16.0.0
  * react.development.js
@@ -20722,7 +20722,7 @@ module.exports = ReactEntry;
 }
 
 }).call(this,require('_process'))
-},{"_process":32,"fbjs/lib/emptyFunction":6,"fbjs/lib/emptyObject":7,"fbjs/lib/invariant":12,"fbjs/lib/warning":18,"object-assign":19,"prop-types/checkPropTypes":20}],29:[function(require,module,exports){
+},{"_process":34,"fbjs/lib/emptyFunction":6,"fbjs/lib/emptyObject":7,"fbjs/lib/invariant":12,"fbjs/lib/warning":18,"object-assign":19,"prop-types/checkPropTypes":20}],29:[function(require,module,exports){
 /*
  React v16.0.0
  react.production.min.js
@@ -20758,8 +20758,12 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react.development.js":28,"./cjs/react.production.min.js":29,"_process":32}],31:[function(require,module,exports){
+},{"./cjs/react.development.js":28,"./cjs/react.production.min.js":29,"_process":34}],31:[function(require,module,exports){
 'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -20779,36 +20783,164 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var Memo = function (_React$Component) {
+  _inherits(Memo, _React$Component);
+
+  function Memo(props) {
+    _classCallCheck(this, Memo);
+
+    var _this = _possibleConstructorReturn(this, (Memo.__proto__ || Object.getPrototypeOf(Memo)).call(this, props));
+
+    _this.create = _this.create.bind(_this);
+    _this.state = { qty: 0 };
+    return _this;
+  }
+
+  _createClass(Memo, [{
+    key: 'create',
+    value: function create() {
+      this.setState({ qty: this.state.qty + 1 });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'section',
+        null,
+        _react2.default.createElement(
+          'h1',
+          null,
+          this.props.title
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          this.props.description
+        ),
+        _react2.default.createElement(
+          'button',
+          { onClick: this.create },
+          'Edit memo'
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'Qty: ',
+          this.state.qty,
+          ' memo(s).'
+        )
+      );
+    }
+  }]);
+
+  return Memo;
+}(_react2.default.Component);
+
+exports.default = Memo;
+
+},{"react":30,"react-dom":27}],32:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _Memo = require('./Memo');
+
+var _Memo2 = _interopRequireDefault(_Memo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var MemoList = function (_React$Component) {
+  _inherits(MemoList, _React$Component);
+
+  function MemoList() {
+    _classCallCheck(this, MemoList);
+
+    return _possibleConstructorReturn(this, (MemoList.__proto__ || Object.getPrototypeOf(MemoList)).apply(this, arguments));
+  }
+
+  _createClass(MemoList, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_Memo2.default, { title: 'title 1', description: 'description 1' }),
+        _react2.default.createElement(_Memo2.default, { title: 'title 2', description: 'description 2' }),
+        _react2.default.createElement(_Memo2.default, { title: 'title 3', description: 'description 3' }),
+        _react2.default.createElement(_Memo2.default, { title: 'title 4', description: 'description 4' })
+      );
+    }
+  }]);
+
+  return MemoList;
+}(_react2.default.Component);
+
+exports.default = MemoList;
+
+},{"./Memo":31,"react":30,"react-dom":27}],33:[function(require,module,exports){
+'use strict';
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _MemoList = require('./MemoList');
+
+var _MemoList2 = _interopRequireDefault(_MemoList);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
 
   function App() {
     _classCallCheck(this, App);
 
-    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this));
+    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
   }
 
   _createClass(App, [{
-    key: 'create',
-    value: function create() {
-      alert("You created a memo!");
-    }
-  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'div',
+        'section',
         null,
         _react2.default.createElement(
           'h1',
           null,
           'Memo Board'
         ),
-        _react2.default.createElement(
-          'button',
-          { onClick: this.create },
-          'Create memo'
-        )
+        _react2.default.createElement(_MemoList2.default, null)
       );
     }
   }]);
@@ -20818,7 +20950,7 @@ var App = function (_React$Component) {
 
 _reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('root'));
 
-},{"react":30,"react-dom":27}],32:[function(require,module,exports){
+},{"./MemoList":32,"react":30,"react-dom":27}],34:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -21004,4 +21136,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[31]);
+},{}]},{},[33]);
