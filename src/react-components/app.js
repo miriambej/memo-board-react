@@ -6,9 +6,16 @@ class App extends React.Component {
     super();
   }
 
+  create() {
+    alert("You created a memo!");
+  }
+
   render(){
     return (
-      <h2>React Component</h2>
+      <div>
+        <h1>Memo Board</h1>
+        <button onClick= {this.create}>Create memo</button>
+      </div>
     );
   }
 }

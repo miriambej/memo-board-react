@@ -20789,12 +20789,26 @@ var App = function (_React$Component) {
   }
 
   _createClass(App, [{
+    key: 'create',
+    value: function create() {
+      alert("You created a memo!");
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'h2',
+        'div',
         null,
-        'React Component'
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Memo Board'
+        ),
+        _react2.default.createElement(
+          'button',
+          { onClick: this.create },
+          'Create memo'
+        )
       );
     }
   }]);
