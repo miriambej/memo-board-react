@@ -1,1 +1,1 @@
-# memory-board-react
+# memo-board-react
